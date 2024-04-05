@@ -71,6 +71,14 @@ body{
 }
 
 /* Muestra de productos */
+/* Titulo */
+.product-page-title{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Tabla */
 .muestra-table{
     width: 80%;
     margin-top: 20px;
@@ -112,13 +120,13 @@ body{
     
 }
 
-/* estilo para el titulo de las peliculas */
+/* estilo para el titulo de los productos */
 .product-item-detail-title{
     color: var(--product-item-detail-title-color);
     margin: 5px 0px 0px 0px;
     line-height: 1.2em;
 }
-/* estilo para el subtitulo de las peliculas */
+/* estilo para el subtitulo de los productos */
 .product-item-detail-subtitle{
     color: var(--product-item-detail-subtitle-color);
     font-size: 13px;
