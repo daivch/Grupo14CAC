@@ -455,4 +455,75 @@ body{
       text-align: center !important;
     }
 
+    /* Oculta logos del navbar y muestra texto a partir de 420px*/
+
+    @media screen and (min-width: 421px) {
+      .nav-link{
+        display: inline;
+      }
+
+      .nav-logo-link{
+        display: none;
+      }
+      
+    }
+
+
+    /* Oculta texto del navbar y muestra los logos hasta 420px */
+
+    @media screen and (max-width: 420px){
+      .nav-link{
+        display: none;
+      }
+
+      .nav-logo-link{
+        display: inline;
+      }
+
+      /* Al ser logos svg(es decir, vectoriales) es necesario darles el tamaño a mano */
+      .nav-logo{
+        width: 30px;
+        height: 30px;
+        margin-right: 30px;
+      }
+
+    }
+
+.product-card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card{
+  width:325px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content{
+  padding: 16px;
+}
+
+.card-content h3{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+
+
+
     
