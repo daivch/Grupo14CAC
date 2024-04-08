@@ -7,7 +7,7 @@
     <!-- enlace a estilos -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Document</title>
+    <title>Torta Personalizada</title>
 </head>
 <body>
     <header class="header">
@@ -32,24 +32,41 @@
         </nav>
     </header>
     
+    
     <main>
-        <div style="height: 64px;">
+        <div class="IMG-Perso">
+
+            <img src="img/prod5.jpeg" > 
 
         </div>
+
+
         <!-- Secciones -->
-            <!-- Productos -->
-                <div id="Productos">
-                    <h1>Productos</h1>
-                </div>
-            <!-- Nosotros -->
-                <div id="Nosotros">
-                    <h1>Sobre nosotros</h1>
-                </div>
-            <!-- Contacto -->
-                <div id="Contacto">
-                    <h1>Contactanos</h1>
-                </div>
-    </main>
+        <div class="product-page-title">
+            <h1>Torta Personalizada</h1>
+        </div>
+
+        <div class="Personalizada-page-warning">
+            <h2>Los pedidos se realizan con 24hs de anticipación
+                ATENCIÓN!
+                Las tortas se abonan únicamente en la sucursal cuando se retira el pedido, no se realizan envíos a domicilio dado que son productos frágiles.
+                
+                Aviso: El formato de torta circular corresponde a aquellas disponibles en cada sucursal listas para llevar, las tortas personalizadas reservadas a través de la plataforma de pedidos de tortas se entregan en formato rectangular, excepto Artesanal, Napoleón, Costumbres Argentina y Cookies que si se reservan en formato circular.</h2>
+        </div>
+            <!-- seleccion de torta -->
+        <div class="product-page-title">
+            <label for="Tip de Torta">Selecciona tipo de torta: </label>
+            <select name="Tipo de Torta" id="Tipo de Torta" class="lista-tipo-torta">
+                <option value="Torta artesanal">Torta artesanal</option>
+                <option value="Torta Cumple Feliz">Torta Cumple Feliz</option>
+                <option value="Torta Apta Celiacos">Torta Apta Celiacos</option>
+                <option value="Torta artesanal">Torta artesanal</option>
+                <option value="Torta artesanal">Torta artesanal</option>
+                
+            </select>
+        </div>
+                <!-- Muestra de producto -->
+       
     <footer class="footer">
         <a class="footer-link" href="#">Preguntas frecuentes</a>
         <a class="footer-link" href="contacto.html">Contacto</a>
