@@ -161,14 +161,14 @@ bottom: 0;
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 650px) {
 .grid-catalogo {
-    background: red;
+
     grid-template-columns: 1fr 1fr;
 }
 }
 
 @media only screen and (min-width: 650px) {
 .grid-catalogo {
-    background: aquamarine;
+    
     grid-template-columns: 1fr 1fr ;
 }
 }
@@ -176,7 +176,7 @@ bottom: 0;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 700px) {
 .grid-catalogo {
-    background: green;
+    
     grid-template-columns: 1fr 1fr 1fr ;
 }
 }
@@ -184,7 +184,7 @@ bottom: 0;
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 .grid-catalogo {
-    background: blue;
+    
     grid-template-columns: 1fr 1fr 1fr ;
 }
 }
@@ -192,7 +192,7 @@ bottom: 0;
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 .grid-catalogo {
-    background: orange;
+    
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 }
@@ -200,7 +200,7 @@ bottom: 0;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 .grid-catalogo {
-    background: pink;
+    
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 }              
