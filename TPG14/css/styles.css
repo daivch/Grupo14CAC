@@ -86,83 +86,124 @@ body{
     text-align: center;
     margin-top: 10px;
 }
-/* Tabla */
-.muestra-table{
-    width: 80%;
-    margin-top: 20px;
-    padding: 0px;
-    margin: 0% 10%;
+/* Grid */
+.grid-catalogo{
+  padding: 1%;
+  margin: 0% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  gap: 2% 1%;
+  width: 90%;
 }
 
+.grid-catalogo-item{
+overflow: hidden;
+position: relative;
+width: 96%;
+height: 96%;
+font-size: 20px;
+cursor: pointer;
+transition: all 150ms;
+-webkit-transform-origin: center left;
+transform-origin: center left;
+text-align: center;
+padding: 0px;
 
-.muestra-table-product{
-    padding: 0px;
-    width: 30%;
-    text-align: center;
-    margin: 2% 1%;
 }
 
-.muestra-table-img{
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    max-width: 200px;
-    max-height: 320px;
-    min-width: 120px;
-    min-height: 200px;
-    
+.muestra-grid-img{
+padding: 0px;
+margin: 0px;
+width: 100%;
+max-width: 333px;
+max-height: 500px;
+min-width: 60%;
+min-height: 90%;
+height: 100%;
 }
 
 .muestra-product-detail{
-    bottom: -100%;
-    padding: 30px;
-    max-height: 100%;
-    overflow: auto;
-    line-height: 15px;
-    position: absolute;
-    background-color: var(--muestra-product-detail-color);
-    box-sizing: border-box;
-    transition: bottom 0.5s ease-in-out;
-    width: 100%;
-    
+bottom: -100%;
+padding: 30px;
+max-height: 100%;
+overflow: auto;
+line-height: 15px;
+position: absolute;
+background-color: var(--muestra-product-detail-color);
+box-sizing: border-box;
+transition: bottom 0.5s ease-in-out;
+width: 100%;
 }
 
-/* estilo para el titulo de los productos */
+/* estilo para el titulo de las peliculas */
 .product-item-detail-title{
-    color: var(--product-item-detail-title-color);
-    margin: 5px 0px 0px 0px;
-    line-height: 1.2em;
+color: var(--product-item-detail-title-color);
+margin: 5px 0px 0px 0px;
+line-height: 1.2em;
 }
-/* estilo para el subtitulo de los productos */
+/* estilo para el subtitulo de las peliculas */
 .product-item-detail-subtitle{
-    color: var(--product-item-detail-subtitle-color);
-    font-size: 13px;
-    margin: 3px 0px;
+color: var(--product-item-detail-title-color);
+font-size: 13px;
+margin: 3px 0px;
 }
 
-.table-item{
-    bottom: -100%;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    width: 200px;
-    height: 300px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: all 150ms;
-    -webkit-transform-origin: center left;
-    transform-origin: center left;
+
+.grid-catalogo-item:hover{
+opacity: 0.9;
 }
 
-.table-item:hover{
-    opacity: 0.9;
+.grid-catalogo-item:hover .muestra-product-detail {
+bottom: 0;
 }
 
-.table-item:hover .muestra-product-detail {
-    bottom: 0;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 650px) {
+.grid-catalogo {
+    background: red;
+    grid-template-columns: 1fr 1fr;
+}
 }
 
+@media only screen and (min-width: 650px) {
+.grid-catalogo {
+    background: aquamarine;
+    grid-template-columns: 1fr 1fr ;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 700px) {
+.grid-catalogo {
+    background: green;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.grid-catalogo {
+    background: blue;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.grid-catalogo {
+    background: orange;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.grid-catalogo {
+    background: pink;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+}              
 /* Hovers */
 .nav-link:hover{
     color: var(--nav-links-hover);
