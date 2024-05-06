@@ -289,6 +289,13 @@ bottom: 0;
     
 }
 
+.redes-sociales{
+  margin: 10px 5px;
+}
+.rrss-logos-links{
+  text-decoration: none;
+  margin-right: 10px;
+}
 .nombre {
   font-family: "Sacramento";
   font-size: 35px;
