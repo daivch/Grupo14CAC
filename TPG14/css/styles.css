@@ -812,3 +812,87 @@ h4 {
   height: 100px;
 
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.grid-item {
+  text-align: center;
+}
+/*
+.opciones {
+  display: none;
+}
+*/
+.opciones-sub {
+  display: none;
+}
+
+.formulario {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.formulario h2 {
+  margin-bottom: 10px;
+}
+
+.formulario form {
+  display: inline-block;
+  text-align: left;
+}
+
+.formulario label,
+.formulario input[type="email"],
+.formulario input[type="text"],
+.formulario input[type="submit"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formulario input[type="email"],
+.formulario input[type="text"],
+.formulario input[type="submit"] {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.formulario input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para todas las imágenes dentro de etiquetas 'label' */
+label img {
+  max-width: 100px; /* Ancho máximo de 100px */
+  max-height: 100px; /* Altura máxima de 100px */
+  display: block; /* Mostrar las imágenes como bloques para controlar el tamaño */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+}
+
+/* Estilo para las opciones de cantidad de capas */
+#opciones-capas label {
+  display: block; /* Mostrar cada opción en un bloque separado */
+  margin-bottom: 10px; /* Espacio entre cada opción */
+}
