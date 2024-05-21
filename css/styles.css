@@ -100,6 +100,7 @@ body {
   margin: auto;
   text-align: center;
   margin-top: 10px;
+  color: #2424bb;
 }
 
 /* Grid */
@@ -776,6 +777,11 @@ h4 {
 
 }
 
+.nosotros-inicio p{
+  margin-top: 10px;
+  color: #212529;
+}
+
 .contacto-inicio {
   margin: 3vw;
   text-align: center;
@@ -783,8 +789,11 @@ h4 {
 
 }
 
+.contacto-inicio p {
+  margin-top: 10px;
+  color: #212529;
 
-
+}
 
 .Personalizada-page-warning {
   background-color: lightcyan;
@@ -814,7 +823,7 @@ h4 {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 0;
   padding: 20px;
 }
