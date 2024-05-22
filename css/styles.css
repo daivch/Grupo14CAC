@@ -964,33 +964,34 @@ h1 {
   text-align: center;
 }
 
-.formulario h2 {
+h2 {
   margin-bottom: 10px;
   color: #2424bb;
 }
 
-.formulario form {
-  display: inline-block;
-  text-align: left;
+h3 {
+  margin-bottom: 10px;
+  color: #2498bb;
+  size: 9px;
 }
 
-.formulario label,
-.formulario input[type="email"],
-.formulario input[type="text"],
-.formulario input[type="submit"] {
+label,
+input[type="email"],
+input[type="text"],
+input[type="submit"] {
   display: block;
   margin-bottom: 10px;
 }
 
-.formulario input[type="email"],
-.formulario input[type="text"],
-.formulario input[type="submit"] {
+input[type="email"],
+input[type="text"],
+input[type="submit"] {
   width: 100%;
   padding: 5px;
   box-sizing: border-box;
 }
 
-.formulario input[type="submit"] {
+input[type="submit"] {
   background-color: #4CAF50;
   color: white;
   border: none;
