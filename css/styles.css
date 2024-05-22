@@ -140,6 +140,9 @@ body {
   }
 .local-img {
   max-width: 100%;
+}
+.formtorta h1{
+  font-size: 2rem; 
 }}
 
 /* Muestra de productos */
