@@ -104,7 +104,7 @@ body {
   margin-bottom: 1rem;
   object-fit: cover;
   -o-object-fit: cover;
-  font-family: "Sacramento", cursive; "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Sacramento", cursive, "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .subtitulo {
@@ -156,6 +156,7 @@ body {
 .grid-catalogo {
   padding: 1%;
   margin: 0% 5%;
+  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-auto-rows: auto;
@@ -648,6 +649,7 @@ h4 {
   line-height: 1;
 }
 
+
 /* Oculta logos del navbar y muestra texto a partir de 600px*/
 @media screen and (min-width: 600px) {
   .nav-link {
@@ -834,12 +836,27 @@ h4 {
   color: var(--nav-links-hover);
 }
 
+.boton-anchor{
+  display: block;
+  width: fit-content;
+  align-self: center;
+  text-decoration: none;
+  background-color: navy;
+  color: white;
+  padding: 0.2vw;
+  border-radius: 10%;
+  margin: 10px;
+}
 
 .nosotros-inicio {
   margin: 3vw;
+  padding: 2vw;
   text-align: center;
   color: var(--texts);
-
+  display: flex;
+  flex-direction: column;
+  border-bottom:8px solid navy ;
+  border-top:8px solid navy ;
 }
 
 .nosotros-inicio p{
@@ -849,8 +866,11 @@ h4 {
 
 .contacto-inicio {
   margin: 3vw;
+  padding: 2vw;
   text-align: center;
   color: var(--texts);
+  display: flex;
+  flex-direction: column;
 
 }
 
