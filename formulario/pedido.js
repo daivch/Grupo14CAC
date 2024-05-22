@@ -33,6 +33,27 @@ function validarFormulario() {
     }
 
     // Si todas las validaciones pasan
+    var camposSeleccionados = {
+        forma: formaSeleccionada.value,
+        capas: capasSeleccionadas,
+        bizcochuelo: bizcochueloSeleccionado.value,
+        relleno: rellenoSeleccionado.value,
+        cobertura: coberturaSeleccionada.value,
+        diseno: disenoSeleccionado.value
+    };
+
+    // Puedes usar esta variable para cualquier propósito necesario, por ejemplo, enviarla al servidor
+    console.log(camposSeleccionados);
+
+    // Por ahora, solo muestra los campos seleccionados en un alert
+    alert('Formulario válido. Campos seleccionados:\n' +
+          'Forma: ' + camposSeleccionados.forma + '\n' +
+          'Capas: ' + camposSeleccionados.capas + '\n' +
+          'Bizcochuelo: ' + camposSeleccionados.bizcochuelo + '\n' +
+          'Relleno: ' + camposSeleccionados.relleno + '\n' +
+          'Cobertura: ' + camposSeleccionados.cobertura + '\n' +
+          'Diseño: ' + camposSeleccionados.diseno);
+    // var Formolario cargado = 
     return true;
 }
 

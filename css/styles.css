@@ -931,6 +931,11 @@ h4 {
 }
 
 body {
+  background-image: url('img/preparacio-tortas.jpg');
+  background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+  background-repeat: no-repeat; /* No repite la imagen */
+  background-position: center; /* Centra la imagen */
+  background-color: rgba(255, 255, 255, 0.8); 
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 0;
   padding: 20px;
@@ -955,9 +960,7 @@ h1 {
   display: none;
 }
 */
-.opciones-sub {
-  display: none;
-}
+
 
 .formulario {
   margin-top: 50px;
@@ -986,7 +989,9 @@ input[type="submit"] {
 input[type="email"],
 input[type="text"],
 input[type="submit"] {
-  width: 100%;
+  vertical-align: center;
+  align-content: center;
+  width: 35%;
   padding: 5px;
   box-sizing: border-box;
 }
@@ -1007,3 +1012,4 @@ input[type="submit"] {
   display: block; /* Mostrar cada opción en un bloque separado */
   margin-bottom: 10px; /* Espacio entre cada opción */
 }
+
