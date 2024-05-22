@@ -8,27 +8,34 @@ function validarFormulario() {
 
     if (!formaSeleccionada) {
         alert('Por favor, seleccione la forma de la torta.');
+        mensajeError.innerHTML = 'Por favor, seleccione la forma de la torta.';
         return false;
     }
     if (!capasSeleccionadas) {
         alert('Por favor, seleccione la cantidad de capas.');
+        mensajeError.innerHTML = 'Por favor, seleccione la cantidad de capas.';
         return false;
     }
     if (!bizcochueloSeleccionado) {
         alert('Por favor, seleccione el tipo de bizcochuelo.');
+        mensajeError.innerHTML = 'Por favor, seleccione el tipo de bizcochuelo.';
         return false;
     }
     if (!rellenoSeleccionado) {
         alert('Por favor, seleccione el relleno.');
+        mensajeError.innerHTML = 'Por favor, seleccione el relleno.';
         return false;
     }
     if (!coberturaSeleccionada) {
         alert('Por favor, seleccione la cobertura.');
+        mensajeError.innerHTML = 'Por favor, seleccione la cobertura.';
         return false;
     }
    
     if (!disenoSeleccionado) {
+        
         alert('Por favor, seleccione el diseño.');
+        mensajeError.innerHTML = 'Por favor, seleccione el diseño.';
         return false;
     }
 
