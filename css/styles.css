@@ -231,6 +231,7 @@ body {
   .grid-catalogo {
 
     grid-template-columns: 1fr 1fr;
+
   }
 }
 
@@ -238,6 +239,7 @@ body {
   .grid-catalogo {
 
     grid-template-columns: 1fr 1fr;
+
   }
 }
 
@@ -246,6 +248,7 @@ body {
   .grid-catalogo {
 
     grid-template-columns: 1fr 1fr 1fr;
+
   }
 }
 
@@ -254,6 +257,7 @@ body {
   .grid-catalogo {
 
     grid-template-columns: 1fr 1fr 1fr;
+
   }
 }
 
@@ -262,6 +266,7 @@ body {
   .grid-catalogo {
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
+   
   }
 }
 
@@ -270,6 +275,7 @@ body {
   .grid-catalogo {
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
   }
 }
 
@@ -699,6 +705,7 @@ h4 {
 }
 
 .productos-inicio {
+  font-size: larger;
   margin-bottom: 2vw;
   text-align: center;
   color: var(--texts);
@@ -755,20 +762,29 @@ h4 {
   line-height: 1.3;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 650px and down) */
 @media only screen and (max-width: 650px) {
   .grid-card-container {
     /* background-color: aqua; */
-    grid-template-columns: 60%;
+    grid-template-columns: 70%;
     grid-row: 30% 30% 30%;
-    height: 1800px;
-    gap: 5%;
+    height: 1600px;
+    gap: 0%;
+
   }
 
   .product-card-container {
     max-height: 500px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 0;
+  }
+
+  .titulo-grande{
+    display: none;
+  }
+
+  .titulo-chico{
+    display: inline;
   }
 }
 
@@ -776,6 +792,13 @@ h4 {
   .grid-card-container {
 
     grid-template-columns: 40% 40%;
+  }
+  .titulo-grande{
+    display: inline;
+  }
+
+  .titulo-chico{
+    display: none;
   }
 }
 
@@ -843,7 +866,7 @@ h4 {
   text-decoration: none;
   background-color: navy;
   color: white;
-  padding: 0.2vw;
+  padding: 10px;
   border-radius: 10%;
   margin: 10px;
 }
