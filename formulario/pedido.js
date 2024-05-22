@@ -1,8 +1,8 @@
-document.getElementById('formularioTorta').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita que el formulario se envíe y la página se recargue
-    validarFormulario();
-});
+
 function validarFormulario() {
+    document.getElementById('formularioTorta').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita que el formulario se envíe y la página se recargue
+    });
     var formaSeleccionada = document.querySelector('input[name="forma"]:checked');
     var capasSeleccionadas = document.querySelector('select[name="capas"]').value;
     var bizcochueloSeleccionado = document.querySelector('input[name="bizcochuelo"]:checked');
