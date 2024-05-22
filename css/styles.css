@@ -140,9 +140,6 @@ body {
   }
 .local-img {
   max-width: 100%;
-}
-.formtorta h1{
-  font-size: 2rem; 
 }}
 
 /* Muestra de productos */
@@ -997,7 +994,6 @@ h3 {
 }
 
 .formtorta h1 {
-  width: 60%;
   margin: auto;
   text-align: center;
   margin-top: 10px;
