@@ -69,21 +69,25 @@
     <main>
 
     <h1>Personaliza tu Torta</h1>
-
     <div class="grid-container" id="personalizacion">
         <!-- Opción para elegir la forma de la torta -->
         <div class="grid-item">
-            <button onclick="mostrarOpciones('forma')">Forma de la Torta</button>
+            <h2>Forma de la Torta</h2>
+            <br><br><br>
             <div id="opciones-forma" class="opciones">
                 <!-- Opciones para la forma de la torta -->
-                <label><input type="radio" name="forma" value="cuadrada"><img src="./img/cuadrada.jpg" alt="Cuadrada"></label>
-                <label><input type="radio" name="forma" value="redonda"><img src="./img/redonda.jpg" alt="Redonda"></label>
-                <label><input type="radio" name="forma" value="rectangular"><img src="./img/rectangular.jpg" alt="Rectangular"></label>
+                <h2>Cuadrada</h2>
+                <label><input type="radio" name="forma" value="cuadrada"></label>
+                <h2>Redonda</h2>
+                <label><input type="radio" name="forma" value="redonda"></label>
+                <h2>Rectangular</h2>
+                <label><input type="radio" name="forma" value="rectangular"></label>
             </div>
         </div>
         <!-- Opción para elegir la cantidad de capas -->
         <div class="grid-item">
-            <button onclick="mostrarOpciones('capas')">Cantidad de Capas</button>
+            <h2>Cantidad de Capas</h2>
+            <br><br><br>
             <div id="opciones-capas" class="opciones">
                 <!-- Opciones para la cantidad de capas -->
                 <select name="capas">
@@ -96,37 +100,53 @@
         </div>
         <!-- Opción para elegir el tipo de bizcochuelo -->
         <div class="grid-item">
-            <button onclick="mostrarOpciones('bizcochuelo')">Tipo de Bizcochuelo</button>
+            <h2>Tipo de Bizcochuelo</h2>
+            <br><br><br>
             <div id="opciones-bizcochuelo" class="opciones">
                 <!-- Opciones para el tipo de bizcochuelo -->
-                <label><input type="radio" name="bizcochuelo" value="chocolate"><img src="./img/chocolate.jpg" alt="Chocolate"></label>
-                <label><input type="radio" name="bizcochuelo" value="vainilla"><img src="./img/vainilla.jpg" alt="Vainilla"></label>
-                <label><input type="radio" name="bizcochuelo" value="celiacos"><img src="./img/celiacos.jpg" alt="Celiacos"></label>
+                <h2>Chocolate</h2>
+                <label><input type="radio" name="bizcochuelo" value="chocolate"></label>
+                <h2>Vainilla</h2>
+                <label><input type="radio" name="bizcochuelo" value="vainilla"></label>
+                <h2>Celiacos</h2>
+                <label><input type="radio" name="bizcochuelo" value="celiacos"></label>
             </div>
         </div>
         <!-- Opción para elegir el relleno -->
         <div class="grid-item">
-            <button onclick="mostrarOpciones('relleno')">Relleno</button>
+            <h2>Relleno</h2>
+            <br><br><br>
             <div id="opciones-relleno" class="opciones">
                 <!-- Opciones para el relleno -->
-                <label><input type="radio" name="relleno" value="mousse-chocolate"><img src="./img/mousse-chocolate.jpg" alt="Mousse de Chocolate"></label>
-                <label><input type="radio" name="relleno" value="mousse-limon"><img src="./img/mousse-limon.jpg" alt="Mousse de Limón"></label>
-                <label><input type="radio" name="relleno" value="dulce-leche-praline"><img src="./img/dulce-leche-praline.jpg" alt="Dulce de Leche con Praliné"></label>
-                <label><input type="radio" name="relleno" value="crema-chantilli-duraznos"><img src="./img/crema-chantilli-duraznos.jpg" alt="Crema Chantillí con Duraznos"></label>
-                <label><input type="radio" name="relleno" value="mousse-frutilla"><img src="./img/mousse-frutilla.jpg" alt="Mousse de Frutilla"></label>
-                <label><input type="radio" name="relleno" value="crema-chantilli-frutillas"><img src="./img/crema-chantilli-frutillas.jpg" alt="Crema Chantillí con Frutillas"></label>
+                <h2>Mousse de Chocolate</h2>
+                <label><input type="radio" name="relleno" value="mousse-chocolate"></label>
+                <h2>Mousse de Limon</h2>
+                <label><input type="radio" name="relleno" value="mousse-limon"></label>
+                <h2>Dulce de Leche y Praline</h2>
+                <label><input type="radio" name="relleno" value="dulce-leche-praline"></label>
+                <h2>Crema Chantilli y Duraznos</h2>
+                <label><input type="radio" name="relleno" value="crema-chantilli-duraznos"></label>
+                <h2>Mousse de Frutilla</h2>
+                <label><input type="radio" name="relleno" value="mousse-frutilla"></label>
+                <h2>Crema Chantilli con Frutillas</h2>
+                <label><input type="radio" name="relleno" value="crema-chantilli-frutillas"></label>
             </div>
         </div>
         <!-- Opción para elegir la cobertura -->
         <div class="grid-item">
-            <button onclick="mostrarOpciones('cobertura')">Cobertura</button>
+            <h2>Cobertura</h2>
+            <br><br><br>
             <div id="opciones-cobertura" class="opciones">
                 <!-- Opciones para la cobertura -->
-                <label><input type="radio" name="cobertura" value="chocolate"><img src="./img/cobertura-chocolate.jpg" alt="Chocolate"></label>
-                <label><input type="radio" name="cobertura" value="merengue"><img src="./img/merengue.jpg" alt="Merengue"></label>
-                <label><input type="radio" name="cobertura" value="masapan"><img src="./img/masapan.jpg" alt="Mazapán"></label>
+                <h2>Chocolate</h2>
+                <label><input type="radio" name="cobertura" value="chocolate"></label>
+                <h2>Merengue</h2>
+                <label><input type="radio" name="cobertura" value="merengue"></label>
+                <h2>Masapan</h2>
+                <label><input type="radio" name="cobertura" value="masapan"></label>
                 <div id="opciones-color-masapan" class="opciones-sub">
                     <!-- Opciones para el color del mazapán -->
+                    <h2>Colores Masapan</h2>
                     <label><input type="radio" name="color-masapan" value="blanco"> Blanco</label>
                     <label><input type="radio" name="color-masapan" value="amarillo"> Amarillo</label>
                     <label><input type="radio" name="color-masapan" value="rosa"> Rosa</label>
@@ -136,13 +156,18 @@
         </div>
         <!-- Opción para elegir el diseño -->
         <div class="grid-item">
-            <button onclick="mostrarOpciones('diseno')">Diseño</button>
+            <h2>Diseño</h2>
+            <br><br><br>
             <div id="opciones-diseno" class="opciones">
                 <!-- Opciones para el diseño -->
-                <label><input type="radio" name="diseno" value="cumpleanos-nina"><img src="./img/cumpleanos-nina.jpg" alt="Cumpleaños Niña"></label>
-                <label><input type="radio" name="diseno" value="cumpleanos-nino"><img src="./img/cumpleanos-nino.jpg" alt="Cumpleaños Niño"></label>
-                <label><input type="radio" name="diseno" value="cumpleanos-adulto"><img src="./img/cumpleanos-adulto.jpg" alt="Cumpleaños Adulto"></label>
-                <label><input type="radio" name="diseno" value="personajes"><img src="./img/personajes.jpg" alt="Personajes"></label>
+                <h2>Cumpleaños Niña</h2>
+                <label><input type="radio" name="diseno" value="cumpleanos-nina"></label>
+                <h2>Cumpleaños Niño</h2>
+                <label><input type="radio" name="diseno" value="cumpleanos-nino"></label>
+                <h2>Cumpleaños Adultos</h2>
+                <label><input type="radio" name="diseno" value="cumpleanos-adulto"></label>
+                <h2>Persobajes</h2>
+                <label><input type="radio" name="diseno" value="personajes"></label>
                 <div id="opciones-personajes" class="opciones-sub">
                     <!-- Opciones para los personajes -->
                     <button onclick="mostrarPopUp()">Seleccionar Personaje</button>
@@ -158,6 +183,7 @@
         <form action="./formulario" method="post">
             <label for="imagen" >Subi el motivo:</label>
             <input type="file" name="" id="">
+            <br><br>
             <label for="nombre">Nombre:</label><br>
             <input type="text" id="nombre" name="nombre" required><br>
             <label for="email">Email:</label><br>
@@ -166,7 +192,8 @@
         </form>
     </div>
     <br><br><br><br><br>
-    <script src="./Formulario/hacepedido.js"></script>
+<script src="./Formulario/pedido.js"></script>
+
 </main>
 <footer class="footer-contact">
         <a class="footer-link" href="index.html">Belu Melamed - La Pastelería</a>
