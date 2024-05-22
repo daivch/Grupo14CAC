@@ -60,6 +60,7 @@ function validarFormulario() {
           'Relleno: ' + camposSeleccionados.relleno + '\n' +
           'Cobertura: ' + camposSeleccionados.cobertura + '\n' +
           'Diseño: ' + camposSeleccionados.diseno);
+     event.preventDefault(); // Evitar que se recargue la página
     // var Formolario cargado = 
     return true;
 }
