@@ -135,7 +135,10 @@ body {
       line-height: 2.5rem; 
       margin-top: 100px; 
   }
-}
+
+.local-img {
+  max-width: 100%;
+}}
 
 /* Muestra de productos */
 /* Titulo */
@@ -394,26 +397,22 @@ body {
 @media screen and (max-width: 768px) {
   .contact-container {
     flex-direction: column;
-    /* Cambia la dirección de los elementos a columna */
     align-items: flex-start;
-    /* Alinea los elementos al inicio */
+  
   }
 
   .contact {
     width: 80%;
     margin-bottom: 20px;
-    /* Agrega un espacio entre los elementos */
+  
   }
 }
 
 .contact-container {
   align-items: center;
-  /* Centrar horizontalmente los elementos */
   justify-content: center;
-  /* Centrar verticalmente los elementos */
   display: flex;
   flex-grow: 1;
-  /* Permite que el contenido del medio crezca para ocupar el espacio disponible */
 
 }
 
