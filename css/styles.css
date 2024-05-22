@@ -963,11 +963,11 @@ h1 {
   text-align: center;
 }
 select {
-  font-size: 28px; /* Tamaño de la fuente */
+  font-size: 18px; /* Tamaño de la fuente */
   padding: 10px; /* Espaciado interno */
   border: 5px solid #e4ead8; /* Borde azul */
   border-radius: 15px; /* Bordes redondeados */
-  background-color: #f8f9fa; /* Color de fondo */
+  background-color: #81b9f0; /* Color de fondo */
   color: #495057; /* Color del texto */
   appearance: none; /* Quitar el estilo por defecto */
   cursor: pointer; /* Cambiar el cursor al pasar sobre el select */
