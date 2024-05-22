@@ -11,34 +11,34 @@ function validarFormulario() {
     var disenoSeleccionado = document.querySelector('input[name="diseno"]:checked');
 
     if (!formaSeleccionada) {
-        alert('Por favor, seleccione la forma de la torta.');
+        //alert('Por favor, seleccione la forma de la torta.');
         mensajeError.innerHTML = 'Por favor, seleccione la forma de la torta.';
         return false;
     }
     if (!capasSeleccionadas) {
-        alert('Por favor, seleccione la cantidad de capas.');
+        //alert('Por favor, seleccione la cantidad de capas.');
         mensajeError.innerHTML = 'Por favor, seleccione la cantidad de capas.';
         return false;
     }
     if (!bizcochueloSeleccionado) {
-        alert('Por favor, seleccione el tipo de bizcochuelo.');
+        //alert('Por favor, seleccione el tipo de bizcochuelo.');
         mensajeError.innerHTML = 'Por favor, seleccione el tipo de bizcochuelo.';
         return false;
     }
     if (!rellenoSeleccionado) {
-        alert('Por favor, seleccione el relleno.');
+        //alert('Por favor, seleccione el relleno.');
         mensajeError.innerHTML = 'Por favor, seleccione el relleno.';
         return false;
     }
     if (!coberturaSeleccionada) {
-        alert('Por favor, seleccione la cobertura.');
+        //alert('Por favor, seleccione la cobertura.');
         mensajeError.innerHTML = 'Por favor, seleccione la cobertura.';
         return false;
     }
    
     if (!disenoSeleccionado) {
         
-        alert('Por favor, seleccione el diseño.');
+        //alert('Por favor, seleccione el diseño.');
         mensajeError.innerHTML = 'Por favor, seleccione el diseño.';
         return false;
     }
@@ -57,14 +57,14 @@ function validarFormulario() {
     console.log(camposSeleccionados);
 
     // Por ahora, solo muestra los campos seleccionados en un alert
-    alert('Formulario válido. Campos seleccionados:\n' +
-          'Forma: ' + camposSeleccionados.forma + '\n' +
-          'Capas: ' + camposSeleccionados.capas + '\n' +
-          'Bizcochuelo: ' + camposSeleccionados.bizcochuelo + '\n' +
-          'Relleno: ' + camposSeleccionados.relleno + '\n' +
-          'Cobertura: ' + camposSeleccionados.cobertura + '\n' +
-          'Diseño: ' + camposSeleccionados.diseno);
-     event.preventDefault(); // Evitar que se recargue la página
+    //alert('Formulario válido. Campos seleccionados:\n' +
+    //      'Forma: ' + camposSeleccionados.forma + '\n' +
+    //      'Capas: ' + camposSeleccionados.capas + '\n' +
+    //      'Bizcochuelo: ' + camposSeleccionados.bizcochuelo + '\n' +
+    //      'Relleno: ' + camposSeleccionados.relleno + '\n' +
+    //      'Cobertura: ' + camposSeleccionados.cobertura + '\n' +
+    //      'Diseño: ' + camposSeleccionados.diseno);
+    //event.preventDefault(); // Evitar que se recargue la página
     // var Formolario cargado = 
     return true;
 }
