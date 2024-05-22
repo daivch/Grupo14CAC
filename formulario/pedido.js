@@ -26,10 +26,7 @@ function validarFormulario() {
         alert('Por favor, seleccione la cobertura.');
         return false;
     }
-    if (coberturaSeleccionada.value === 'masapan' && !document.querySelector('input[name="color-masapan"]:checked')) {
-        alert('Por favor, seleccione el color del mazapán.');
-        return false;
-    }
+   
     if (!disenoSeleccionado) {
         alert('Por favor, seleccione el diseño.');
         return false;
