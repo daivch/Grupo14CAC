@@ -963,7 +963,7 @@ h1 {
   text-align: center;
 }
 select {
-  font-size: 18px; /* Tamaño de la fuente */
+  font-size: 28px; /* Tamaño de la fuente */
   padding: 10px; /* Espaciado interno */
   border: 5px solid #e4ead8; /* Borde azul */
   border-radius: 15px; /* Bordes redondeados */
@@ -975,6 +975,11 @@ select {
 option {
   font-size: 15px; /* Tamaño de la fuente para las opciones */
   padding: 10px; /* Espaciado interno para las opciones */
+}
+
+.formulario {
+  margin-top: 50px;
+  text-align: center;
 }
 
 h2 {
@@ -996,6 +1001,8 @@ h4 {
 label,
 input[type="email"],
 input[type="text"],
+input[type="tel"],
+input[type="DATE"],
 input[type="submit"] {
   display: block;
   margin-bottom: 10px;
@@ -1003,6 +1010,8 @@ input[type="submit"] {
 
 input[type="email"],
 input[type="text"],
+input[type="tel"],
+input[type="DATE"],
 input[type="submit"] {
   vertical-align: center;
   align-content: center;
