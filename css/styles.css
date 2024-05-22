@@ -135,7 +135,9 @@ body {
       line-height: 2.5rem; 
       margin-top: 100px; 
   }
-
+.subtitulo {
+    font-size: 1rem; 
+  }
 .local-img {
   max-width: 100%;
 }}
@@ -425,7 +427,7 @@ body {
   }
 
    .contact-title {
-      font-size: 0.45rem; 
+      font-size: 1rem; 
       font-weight: bold; 
   }
 
