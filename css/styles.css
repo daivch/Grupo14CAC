@@ -977,6 +977,11 @@ h3 {
   color: #2498bb;
   size: 9px;
 }
+h4 {
+ 
+  color: #bb2472;
+  size: 30px;
+}
 
 label,
 input[type="email"],
