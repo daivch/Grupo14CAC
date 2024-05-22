@@ -992,10 +992,27 @@ h3 {
   color: #2498bb;
   size: 9px;
 }
-h4 {
+
+.formtorta h1 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  color: #2424bb;
  
-  color: #bb2472;
+}
+
+.formtorta h4 {
+  color: white;
   size: 30px;
+  padding: 20px;
+  background-color: navy;
+  border: #2424bb;
+  border-radius: 10px;
+  display: inline-block; 
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 15px;
 }
 
 label,
